@@ -1,32 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>标签测试</title>
-    <url>/2020/03/04/%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[]]></content>
+    <title>Hexo发布至GitHub</title>
+    <url>/2020/03/05/Hexo%E5%8F%91%E5%B8%83%E8%87%B3GitHub/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我们已经完成了Hexo在本地的搭建和访问(如果还没有请阅览《Hexo搭建个人博客》)，要想别人能够通过浏览器访问到我们的博客，还需要接下来的操作</p>
+<a id="more"></a>
+<h2 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="配置_config.yml"></a>配置_config.yml</h2><p>使用sublime打开项目下/_config.yml文件<br><img src="https://i.loli.net/2020/03/05/6sEhRaVDGvbIwYd.png" alt="图片源失效"></p>
+<h3 id="修改deploy属性"><a href="#修改deploy属性" class="headerlink" title="修改deploy属性"></a>修改deploy属性</h3><p>修改参考下图修改deploy中的属性，repo要参考格式改成自己的GitHub仓库路径<br><img src="https://i.loli.net/2020/03/05/OiXW2EdUMhLop67.png" alt="图片源失效"></p>
+<p>不知道地址的参考下图：<br><img src="https://i.loli.net/2020/03/05/h4V7yNInT5cmRC1.png" alt="图片源失效"></p>
+<h3 id="修改url值"><a href="#修改url值" class="headerlink" title="修改url值"></a>修改url值</h3><p>参考格式改成自己的路径<br><img src="https://i.loli.net/2020/03/05/rXRfJs81jvSYBqD.png" alt="图片源失效"></p>
+<h2 id="发布Hexo详细操作"><a href="#发布Hexo详细操作" class="headerlink" title="发布Hexo详细操作"></a>发布Hexo详细操作</h2><p>如果项目在本地运行 ctrl+c 输入y结束运行，然后输入 hexo g 重新部署一下项目<br><img src="https://i.loli.net/2020/03/05/XHLf3RrhSoiz4Ic.png" alt="图片源失效"></p>
+<p>部署完毕，还需要安装一个插件(安装一次就不需要安装了)</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<p><img src="https://i.loli.net/2020/03/05/wkDB62T1yKXajpt.png" alt="图片源失效"></p>
+<h3 id="配置git信息"><a href="#配置git信息" class="headerlink" title="配置git信息"></a>配置git信息</h3><p>下图两行命令分别是配置git绑定邮箱和用户名<br><img src="https://i.loli.net/2020/03/05/X9eS8PzQ2GHn5L3.png" alt="图片源失效"></p>
+<p>然后输入 hexo d发布到GitHub,但是第一次发布需要输入GitHub的账号密码,输入完毕点击确认上传不报错就恭喜你，大功告成了<br><img src="https://i.loli.net/2020/03/05/U7CPbutJ3BAnzhW.png" alt="图片源失效"></p>
+<h3 id="验证成果"><a href="#验证成果" class="headerlink" title="验证成果"></a>验证成果</h3><p>浏览器中输入GitHub项目地址进行访问，看看效果，比如我的地址【<a href="https://luoziqiang1997.github.io/】">https://luoziqiang1997.github.io/】</a><br><a href="https://luoziqiang1997.github.io/">欢迎大家访问</a></p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>1.大家能坚持到这一步实属不易，深刻体会了一次项目的部署过程，当然这仅仅是我们个人博客的第一步，博客的开发、发文章、主题、功能扩展等一系列功能我以后再一一补充，当然大家也可以查阅相关资料自主学习，大家可以在个人博客可写一些随文、技术、代码等等文章，我相信，以后这将成为自己的一笔宝贵财富。</p>
+<p>2.GitHub毕竟只是一个项目托管平台，访问我们的项目效率和稳定性没法得到保证，解决办法就是花钱买一个云服务器和域名，将我们的博客搭建在云服务器上就能彻底解决这些问题，但是本人因为疫情期间在家待命，没发工资，就不能破费为大家演示了，以后发了工资找时间再发布相关文章，当然大家可以自行扩展，很容易的。</p>
+<p>3.发布项目常用的三个命令 hexo clean(清除缓存)、hexo g(部署项目，也可以说是比较我们本地的项目和GitHub上面的项目有什么不同)、hexo d(将修改后的内容发布到GitHub,在这之前必须执行hexo g命令，最好是在执行hexo g之前把hexo clean也执行一次)<br>(该文章适用于初学者，有相关基础的可以按照个人习惯进行搭建)</p>
+]]></content>
       <categories>
-        <category>aaa</category>
+        <category>技术</category>
       </categories>
       <tags>
-        <tag>Testing</tag>
-        <tag>Another Tag</tag>
+        <tag>搭建</tag>
+        <tag>lzq精编</tag>
       </tags>
   </entry>
   <entry>
-    <title>第一篇博客</title>
-    <url>/2020/03/04/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>title:作业<br>注意：1. 该作业在本机hive环境下操作完成<br>2.将每题对应的hql写入到该文档题目下(没电脑的同学也必须完成)<br>3.星期五之前将文档提交至学委处,文档按本人姓名_作业二命名</p>
+    <title>Hexo搭建个人博客</title>
+    <url>/2020/03/04/Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文<br>章，在几秒内，即可利用靓丽的主题生成静态网页，该文章详细介绍怎么搭建一个属于自己的Hexo博客。</p>
 <a id="more"></a>
-<hr>
-<p>  <img src="https://i.loli.net/2020/03/04/rNhYfxPX9w4HaT7.jpg" alt="图片源失效"><br>我们有如下的用户访问数据<br>userId    visitDate    visitCount<br>u01    2017/1/21    5<br>u02    2017/1/23    6<br>u03    2017/1/22    8<br>u04    2017/1/20    3<br>u01    2017/1/23    6<br>u01    2017/2/21    8<br>u02    2017/1/23    6<br>u01    2017/2/22    4<br>###<br>第一题：<br>根据上图在hive中创建一个用户访问信息表</p>
-<p>第二题<br>将上图所示数据插入该表中</p>
-<p>第三题<br>统计出userId为u01的累计访问次数</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>Hexo是纯前端博客框架，不依赖后台，安装快捷，如遇到无法解决的问题，可在下方留言。</p>
+<h3 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h3><p>1.<a href="http://nodejs.cn/download/" target="_blank" rel="noopener">安装Node.js</a><br>2.<a href="https://github.com/" target="_blank" rel="noopener">注册GitHub</a><br>3.<a href="https://npm.taobao.org/mirrors/git-for-windows/v2.21.0.windows.1/Git-2.21.0-64-bit.exe" target="_blank" rel="noopener">安装Git for Windows</a><br>4.<a href="https://www.sublimetext.com" target="_blank" rel="noopener">安装sublime</a></p>
+<h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p>Node.js 是一个基于 Chrome V8引擎的 JavaScript运行环境,Hexo的运行要基于该平台上，选择对应系统版本下载：<br><img src="https://i.loli.net/2020/03/04/IQ1ZmbOSCKA72Uu.png" alt="图片源失效"></p>
+<p>安装一直Next就行,Node.js就安装完成啦<br><img src="https://i.loli.net/2020/03/04/q2Mci7t8BTfGZSL.png" alt="图片源失效"></p>
+<h3 id="注册GitHub"><a href="#注册GitHub" class="headerlink" title="注册GitHub"></a>注册GitHub</h3><p>gitHub是一个面向开源及私有软件项目的托管平台,最终我们的Hexo将上传到该平台，我们将它当成一个免费的云服务器使用，不需要下载直接官网注册<br><img src="https://i.loli.net/2020/03/04/amGCstXxHVlY931.png" alt="图片源失效"></p>
+<p>邮箱认证完成登录后，就可以创建我们的仓库了，右上角+，新建存储库<br><img src="https://i.loli.net/2020/03/04/Ja29Mr6p5Nj3ATC.png" alt="图片源失效"></p>
+<p>仓库名称格式:用户名.github.io,勾选【使用自述文件初始化此存储库】，点击创建<br><img src="https://i.loli.net/2020/03/04/ASnwGXdW2hNqVbp.png" alt="图片源失效"></p>
+<h3 id="安装Git-for-Windows"><a href="#安装Git-for-Windows" class="headerlink" title="安装Git for Windows"></a>安装Git for Windows</h3><p>gitforwin是将我们本地项目部署到GitHub平台的工具<br>在官网下载的镜像是在国外，速度会很慢，推荐使用以上我提供的国内镜像下载<br><img src="https://i.loli.net/2020/03/04/fyh2xBUK1jYXvpE.png" alt="图片源失效"></p>
+<p>除了这一步选择第二个选项，其他的一直下一步即可<br><img src="https://i.loli.net/2020/03/04/tUxYia9ds5pk2TD.png" alt="图片源失效"></p>
+<p>打开cmd窗口，输入git输出以下内容即安装成功<br><img src="https://i.loli.net/2020/03/04/tY7Fzm9Ooj4RwME.png" alt="图片源失效"></p>
+<h3 id="配置GitHub-SSH密钥"><a href="#配置GitHub-SSH密钥" class="headerlink" title="配置GitHub SSH密钥"></a>配置GitHub SSH密钥</h3><p>在桌面鼠标右击——&gt;选中Git Bash Here 打开Git命令窗口，</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">输入命令：ssh-keygen -t rsa -C <span class="string">"邮箱地址"</span> 如：ssh-keygen -t rsa -C <span class="string">"123456@qq.com"</span></span><br></pre></td></tr></table></figure>
+<p>3次回车生成一条绑定邮箱账号的git密钥<br><img src="https://i.loli.net/2020/03/04/UNrmjgaVyALsS8D.png" alt="图片源失效"></p>
+<p>然后登录GitHub，点击头像选择设置<br><img src="https://i.loli.net/2020/03/04/lV21HJkqCoeBTv3.png" alt="图片源失效"></p>
+<p>然后点击SSH和GPS密钥，选择新的SSH密钥<br><img src="https://i.loli.net/2020/03/04/Dg57mOETnvFfwzt.png" alt="图片源失效"></p>
+<p>找到前面生成的ssh密钥，一般在C:\Users\luo.ssh这个路径下，用记事本打开.pub结尾的文件，里面就是密钥串，全选复制<br><img src="https://i.loli.net/2020/03/04/LCtemYbAKSdBvTM.png" alt="图片源失效"></p>
+<p>回到GitHub创建新SSH的页面，标题随便输入，键就是前面复制的密钥串，输入完成点击创建<br><img src="https://i.loli.net/2020/03/04/2tQfV7r4nRhBbI3.png" alt="图片源失效"></p>
+<h3 id="Hexo下载"><a href="#Hexo下载" class="headerlink" title="Hexo下载"></a>Hexo下载</h3><p>可参考<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">官方文档</a><br>在本地磁盘创建一个文件夹如D:\blog<br>cmd打开命令窗口，下载Hexo和插件都将使用cmd进行，为了效率，建议将npm镜像下载切换为国内镜像</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+<p>配置后可通过下面方式来验证是否成功,成功返回<a href="https://registry.npm.taobao.org/" target="_blank" rel="noopener">https://registry.npm.taobao.org/</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config get registry</span><br></pre></td></tr></table></figure>
+
+<p>然后切换到之前创建的文件夹路径,输入指令开始下载Hexo：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<p><img src="https://i.loli.net/2020/03/05/6HYdWjAmVB5vNDa.png" alt="图片源失效"></p>
+<p>下载完毕，继续输入指令初始化，项目名称自定义，会自动生成一个文件夹：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init 【项目名称】</span><br></pre></td></tr></table></figure>
+<p><img src="https://i.loli.net/2020/03/05/MURlgr1fGw8Vxcb.png" alt="图片源失效"></p>
+<p>继续cd到刚刚生成的文件夹，继续下载依赖：<br><img src="https://i.loli.net/2020/03/05/vpK9Ibh3UHw6tlg.png" alt="图片源失效"></p>
+<p>安装完毕，输入hexo s -p 5555启动项目，或者hexo s使用4000默认端口启动<br><img src="https://i.loli.net/2020/03/05/L4vNGK9jehfrVM6.png" alt="图片源失效"></p>
+<p>启动完成在浏览器输入localhost:5555即可访问项目<br><img src="https://i.loli.net/2020/03/05/rsVaYIM7fcQjB5S.png" alt="图片源失效"></p>
+<h3 id="安装sublime"><a href="#安装sublime" class="headerlink" title="安装sublime"></a>安装sublime</h3><p>sublime是用来编辑Hexo项目的工具，下载后一直点下一步安装即可<br>安装完成打开软件，直接将项目文件拖进来，就可以进行编辑开发(详细开发步骤有时间我会再出文档)<br><img src="https://i.loli.net/2020/03/05/pX3W16noisCVHDb.png" alt="图片源失效"></p>
+<h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><p>现在我们的项目只能在本地访问，要想别人能够通过浏览器访问我们的博客，还需要进行接下来的操作，<br>请阅览我的另外一篇文章《Hexo发布至GitHub》</p>
 ]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>搭建</tag>
+        <tag>lzq精编</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
     <url>/2020/03/04/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
 <h2 id="hello-hexo"><a href="#hello-hexo" class="headerlink" title="hello hexo"></a>hello hexo</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>

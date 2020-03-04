@@ -6,51 +6,59 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://luoziqiang1997.github.io/"/>
-  <updated>2020-03-04T11:21:59.097Z</updated>
+  <updated>2020-03-04T17:56:08.701Z</updated>
   <id>https://luoziqiang1997.github.io/</id>
   
   <author>
-    <name>luo</name>
+    <name>luoZiQiang</name>
     <email>18670758559@163.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>标签测试</title>
-    <link href="https://luoziqiang1997.github.io/2020/03/04/%E6%B5%8B%E8%AF%95/"/>
-    <id>https://luoziqiang1997.github.io/2020/03/04/%E6%B5%8B%E8%AF%95/</id>
-    <published>2020-03-04T10:17:52.398Z</published>
-    <updated>2020-03-04T11:21:59.097Z</updated>
+    <title>Hexo发布至GitHub</title>
+    <link href="https://luoziqiang1997.github.io/2020/03/05/Hexo%E5%8F%91%E5%B8%83%E8%87%B3GitHub/"/>
+    <id>https://luoziqiang1997.github.io/2020/03/05/Hexo%E5%8F%91%E5%B8%83%E8%87%B3GitHub/</id>
+    <published>2020-03-04T16:55:56.006Z</published>
+    <updated>2020-03-04T17:56:08.701Z</updated>
     
     <summary type="html">
+    
+      &lt;p&gt;我们已经完成了Hexo在本地的搭建和访问(如果还没有请阅览《Hexo搭建个人博客》)，要想别人能够通过浏览器访问到我们的博客，还需要接下来的操作&lt;/p&gt;
     
     </summary>
     
     
-      <category term="aaa" scheme="https://luoziqiang1997.github.io/categories/aaa/"/>
+      <category term="技术" scheme="https://luoziqiang1997.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="Testing" scheme="https://luoziqiang1997.github.io/tags/Testing/"/>
+      <category term="搭建" scheme="https://luoziqiang1997.github.io/tags/%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="Another Tag" scheme="https://luoziqiang1997.github.io/tags/Another-Tag/"/>
+      <category term="lzq精编" scheme="https://luoziqiang1997.github.io/tags/lzq%E7%B2%BE%E7%BC%96/"/>
     
   </entry>
   
   <entry>
-    <title>第一篇博客</title>
-    <link href="https://luoziqiang1997.github.io/2020/03/04/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://luoziqiang1997.github.io/2020/03/04/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
-    <published>2020-03-03T19:24:53.748Z</published>
-    <updated>2020-03-04T11:22:08.284Z</updated>
+    <title>Hexo搭建个人博客</title>
+    <link href="https://luoziqiang1997.github.io/2020/03/04/Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://luoziqiang1997.github.io/2020/03/04/Hexo+GitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-03-04T13:50:47.202Z</published>
+    <updated>2020-03-04T17:56:27.830Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;title:作业&lt;br&gt;注意：1. 该作业在本机hive环境下操作完成&lt;br&gt;2.将每题对应的hql写入到该文档题目下(没电脑的同学也必须完成)&lt;br&gt;3.星期五之前将文档提交至学委处,文档按本人姓名_作业二命名&lt;/p&gt;
+      &lt;p&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文&lt;br&gt;章，在几秒内，即可利用靓丽的主题生成静态网页，该文章详细介绍怎么搭建一个属于自己的Hexo博客。&lt;/p&gt;
     
     </summary>
     
     
+      <category term="技术" scheme="https://luoziqiang1997.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="搭建" scheme="https://luoziqiang1997.github.io/tags/%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="lzq精编" scheme="https://luoziqiang1997.github.io/tags/lzq%E7%B2%BE%E7%BC%96/"/>
     
   </entry>
   
@@ -59,17 +67,11 @@
     <link href="https://luoziqiang1997.github.io/2020/03/04/hello-world/"/>
     <id>https://luoziqiang1997.github.io/2020/03/04/hello-world/</id>
     <published>2020-03-03T16:45:19.547Z</published>
-    <updated>2020-03-03T17:21:52.557Z</updated>
+    <updated>2020-03-04T17:54:35.353Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
     
     </summary>
     
