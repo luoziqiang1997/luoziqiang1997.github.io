@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Luo</title>
+  <icon>https://www.gravatar.com/avatar/2a8e50d03718638bcbab9d000631abc9</icon>
+  <subtitle>面向大海，春暖花开</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://luoziqiang1997.github.io/"/>
+  <updated>2020-03-04T11:21:59.097Z</updated>
+  <id>https://luoziqiang1997.github.io/</id>
+  
+  <author>
+    <name>luo</name>
+    <email>18670758559@163.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>标签测试</title>
+    <link href="https://luoziqiang1997.github.io/2020/03/04/%E6%B5%8B%E8%AF%95/"/>
+    <id>https://luoziqiang1997.github.io/2020/03/04/%E6%B5%8B%E8%AF%95/</id>
+    <published>2020-03-04T10:17:52.398Z</published>
+    <updated>2020-03-04T11:21:59.097Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="aaa" scheme="https://luoziqiang1997.github.io/categories/aaa/"/>
+    
+    
+      <category term="Testing" scheme="https://luoziqiang1997.github.io/tags/Testing/"/>
+    
+      <category term="Another Tag" scheme="https://luoziqiang1997.github.io/tags/Another-Tag/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇博客</title>
+    <link href="https://luoziqiang1997.github.io/2020/03/04/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://luoziqiang1997.github.io/2020/03/04/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-03-03T19:24:53.748Z</published>
+    <updated>2020-03-04T11:22:08.284Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;title:作业&lt;br&gt;注意：1. 该作业在本机hive环境下操作完成&lt;br&gt;2.将每题对应的hql写入到该文档题目下(没电脑的同学也必须完成)&lt;br&gt;3.星期五之前将文档提交至学委处,文档按本人姓名_作业二命名&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://luoziqiang1997.github.io/2020/03/04/hello-world/"/>
+    <id>https://luoziqiang1997.github.io/2020/03/04/hello-world/</id>
+    <published>2020-03-03T16:45:19.547Z</published>
+    <updated>2020-03-03T17:21:52.557Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
